@@ -9,7 +9,7 @@ app.get('/will', function (req, res) {
     res.send('{ "response": "Welcome to Futurescape World!!!!!!!!!!" }');
 });
 app.get('/ready', function (req, res) {
-    res.send('{ "response": " Great!, It works! Welcome to Futurescape Technologies" }');
+    res.send('{ "response": " Great!, It works! Welcome to Futurescape Technologies Pvt. Ltd." }');
 });
 app.listen(process.env.PORT || 3000);
 module.exports = app;

@@ -8,6 +8,11 @@ metadata:
     app: nodeapp
 spec:
   replicas: 1
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 50%
+      maxUnavailable: 50%
   selector:
     matchLabels:
       app: nodeapp
@@ -18,10 +23,9 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: 9967550479/nodeapp:latest
+        image: 9967550479/nodeapp:$BUILD_ID
         ports:
         - containerPort: 3000
-        
         
 ---
 

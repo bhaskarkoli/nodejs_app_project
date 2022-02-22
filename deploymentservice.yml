@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: 9967550479/nodeapp
+        image: registry.hub.docker.com/9967550479/nodeapp
         ports:
         - containerPort: 3000
         

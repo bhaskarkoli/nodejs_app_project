@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-    res.send('{ "response": "Hi From FUTURESCAPE TECHNOLOGY Version 6 " }');
+    res.send('{ "response": "Hi From FUTURESCAPE TECHNOLOGY with dynamic version tag" }');
 });
 
 app.get('/adv', function (req, res) {

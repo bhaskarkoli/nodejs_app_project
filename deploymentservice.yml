@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: 9967550479/nodeapp:${BUILD_ID}
+        image: 9967550479/nodeapp:$BUILD_ID
         ports:
         - containerPort: 3000
         

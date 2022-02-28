@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-    res.send('{ "response": "Hi From FUTURESCAPE TECHNOLOGY with Docker Dynamic Tag" }');
+    res.send('{ "response": "Hi From FUTURESCAPE TECHNOLOGY" }');
 });
 
 app.get('/adv', function (req, res) {

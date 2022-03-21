@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-    res.send('{ "response": "Hi From FUTURESCAPE TECHNOLOGY - with Lightweight Docker Image" }');
+    res.send('{ "response": "Hi From FUTURESCAPE TECHNOLOGY - Lightweight Docker Image" }');
 });
 
 app.get('/adv', function (req, res) {
